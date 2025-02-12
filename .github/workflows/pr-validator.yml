@@ -12,6 +12,7 @@ jobs:
                     PR_TITLE="${{ github.event.pull_request.title }}"
                     if [[ ! "$PR_TITLE" =~ ^(feature|bugfix|hotfix)\/[a-z0-9-]+$ ]]; then
                         echo "pull request title must follow format: feature/branch-name or bugfix/branch-name"
+                        echo "incorrect name: ${PR_TITLE}"
                         exit 1
                     fi
                     
