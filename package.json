@@ -7,7 +7,6 @@
     "start": "node .",
     "test": "node ./test.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fred158f/test-for-branch-protection.git"
@@ -20,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/fred158f/test-for-branch-protection/issues"
   },
-  "homepage": "https://github.com/fred158f/test-for-branch-protection#readme"
+  "homepage": "https://github.com/fred158f/test-for-branch-protection#readme",
+  "devDependencies": {
+    "@eslint/js": "^8.57.1",
+    "eslint": "^8.57.1",
+    "globals": "^15.14.0"
+  }
 }
